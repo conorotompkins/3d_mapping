@@ -4,7 +4,7 @@ library(geoviz)
 #Set up the area you want to visualise (ggmap::geocode can help you do this straight from R but you'll need a Google API key)
 lat <- 40.449828
 long <- -79.944268
-square_km <- 10
+square_km <- 5
 
 #Increase this to ~60 for a higher resolution (but slower) image
 max_tiles <- 60
@@ -75,3 +75,5 @@ rayshader::render_depth(
   fstop = 18,
   filename = "output/pgh.png"
 )
+
+save_3dprint("pgh_3d.stl", maxwidth = 2, unit = "in")
