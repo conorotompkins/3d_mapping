@@ -76,4 +76,9 @@ rayshader::render_depth(
   filename = "output/pgh.png"
 )
 
-save_3dprint("pgh_3d.stl", maxwidth = 2, unit = "in")
+#save_3dprint("pgh_3d.stl", maxwidth = 2, unit = "in")
+
+#references
+#http://www.hilltop-analytics.com/2019/05/i-can-see-my-house-from-here-your-favourite-places-in-3d-with-r-rayshader-and-geoviz/
+#https://joachim-gassen.github.io/2018/11/3d-printing-your-data-with-rayshader/
+#https://www.tylermw.com/3d-printing-rayshader/
